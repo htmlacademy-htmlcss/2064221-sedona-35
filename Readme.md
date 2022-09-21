@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Эльвира Федченко](https://up.htmlacademy.ru/htmlcss/35/user/2064221).
-* Наставник: `Геннадий Максимов` (https://htmlacademy.ru/profile/gennadiy).
+* Наставник: [Геннадий Максимов](https://htmlacademy.ru/profile/gennadiy).
 
 ---
 
