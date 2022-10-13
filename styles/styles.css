@@ -206,7 +206,6 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-
 }
 .hotels-title h3 {
   font-size: 24px;
@@ -232,7 +231,7 @@ body {
   text-decoration: none;
   color: #ffffff;
   background-color: #82b3d3;
- }
+}
 .pagination-current {
   color: #000000;
   background-color: #f2f2f2;
