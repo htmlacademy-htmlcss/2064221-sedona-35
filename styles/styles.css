@@ -457,7 +457,7 @@ body {
 
 .hotels-title {
   text-decoration: none;
-  grid-column: span 2;
+  grid-column: 1 / -1;
   word-break: break-word;
 }
 .hotels-name,
@@ -468,13 +468,15 @@ body {
 .hotels-price {
   justify-self: end;
 }
-
+.hotels-link {
+  grid-column: 1 / -1;
+}
 .hotels-link img {
-  grid-column: span 2;
   margin: 0;
   padding: 0;
   display: block;
   object-fit: contain;
+  width: 100%;
 }
 .hotels-title h3 {
   font-size: 24px;
