@@ -70,7 +70,7 @@
       </header>
       <main class="main-container page-main">
         <div class="inner-header">
-          <h1 class="inner-header-title">Гостиницы Седона</h1>
+          <h1 class="inner-header-title">Гостиницы Седоны</h1>
           <ul class="breadcrumbs">
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link breadcrumbs-link-home" href="index.html">
@@ -82,7 +82,7 @@
             </li>
           </ul>
 
-          <form
+           <form
             class="services-filter"
             action="https://echo.htmlacademy.ru/"
             method="get"
@@ -92,31 +92,35 @@
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
-                    <input
-                      class="control-input"
-                      type="checkbox"
-                      name="swimming pool"
-                      checked
-                    />Бассейн</label
+                    <input class="visually-hidden control-input" type="checkbox" name="swimming pool" checked>
+                    <span class="control-service"></span>
+                    <span class="control-label">Бассейн</span>
+                    </label
                   >
                 </li>
                 <li class="catalog-filter-item">
                   <label class="control">
                     <input
-                      class="control-input"
+                      class="visually-hidden control-input"
                       type="checkbox"
                       name="parking"
                       checked
-                    />Парковка</label
+                    />
+                    <span class="control-service"></span>
+                    <span class="control-label">Парковка</span>
+                    </label
                   >
                 </li>
                 <li class="catalog-filter-item">
                   <label class="control">
                     <input
-                      class="control-input"
+                      class="visually-hidden control-input"
                       type="checkbox"
                       name="Wi-Fi"
-                    />Wi-Fi</label
+                    />
+                    <span class="control-service"></span>
+                    <span class="control-label">Wi-Fi</span>
+                    </label
                   >
                 </li>
               </ul>
@@ -127,45 +131,67 @@
                 <li class="catalog-filter-item">
                   <label class="control">
                     <input
-                      class="control-input"
+                      class="visually-hidden control-input"
                       type="radio"
                       name="type-of-housing"
                       value="hotels"
-                      checked
-                    />Гостиницы</label
+                      checked>
+                    <span class="control-service"></span>
+                    <span class="control-label">Гостиницы</span></label
                   >
                 </li>
                 <li class="catalog-filter-item">
                   <label class="control">
                     <input
-                      class="control-input"
+                      class="visually-hidden control-input"
                       type="radio"
                       name="type-of-housing"
                       value="motel"
-                    />Мотель</label
+                    />
+                    <span class="control-service"></span>
+                    <span class="control-label">Мотель</span></label
                   >
                 </li>
                 <li class="catalog-filter-item">
                   <label class="control">
                     <input
-                      class="control-input"
+                      class="visually-hidden control-input"
                       type="radio"
                       name="type-of-housing"
                       value="apartments"
-                    />Апартаменты</label
+                    />
+                    <span class="control-service"></span>
+                    <span class="control-label">Апартаменты</span></label
                   >
                 </li>
               </ul>
             </fieldset>
+
             <fieldset class="catalog-price">
               <legend class="catalog-filter-title">
                 Стоимость, <span>₽:</span>
               </legend>
-              <label>от<input type="text" value="0" /></label>
-              <label>до<input type="text" value="9000" /></label>
+              <div class="range-wrapper-inputs">
+              <label class="catalog-filter-label catalog-filter-label-left">
+                <input class="range-input" type="number" value="0"  name="min-price" min="0" max="999999">
+              </label>
+              <label class="catalog-filter-label catalog-filter-label-right">
+                <input class="range-input" type="number" value="9000"  name="max-price" min="0" max="999999">
+              </label>
+              </div>
+              <div class="range-scale">
+                  <div class="range-bar" style="left: 10px; width: 208px">
+                    <button class="range-toggle toggle-min">
+                      <span class="visually-hidden">Изменить минимальную цену.</span>
+                    </button>
+                    <button class="range-toggle toggle-max">
+                      <span class="visually-hidden">Изменить максимальную цену.</span>
+                    </button>
+                  </div>
+              </div>
             </fieldset>
             <div class="button-choice">
-              <button class="btn btn-big btn-secondary" type="submit">
+              <button class="btn btn-big btn-secondary btn-apply" type="submit">
                 Применить
               </button>
               <button class="btn btn-big btn-reset" type="submit">
@@ -175,7 +201,7 @@
           </form>
         </div>
         <div class="search-form">
-          <h2 class="search">Найдено гостиниц:<span>38</span></h2>
+          <h2 class="search">Найдено гостиниц: <span>38</span></h2>
           <select class="select-control select-control-arrow" aria-label="Сортировка">
             <option value="cheap">Сначала дешёвые</option>
           </select>
@@ -467,7 +493,7 @@
               </li>
             </ul>
           </section>
-          <a class="phone" href="tel:+78128121212">+7 812 812-12-12</a>
+          <a class="phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
           <a
             class="html-academy"
             href="https://htmlacademy.ru/"
@@ -478,6 +504,7 @@
         </a>
         </div>
       </footer>
+
     </div>
   </body>
 </html>
