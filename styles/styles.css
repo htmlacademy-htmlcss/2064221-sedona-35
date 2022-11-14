@@ -778,7 +778,8 @@ body {
 
 .appointment-form-guests::-webkit-outer-spin-button,
 .appointment-form-guests::-webkit-inner-spin-button {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   margin: 0;
 }
 
@@ -1151,12 +1152,14 @@ body {
   text-align: start;
   background-color: transparent;
   border: none;
-  appearance: textfield;
+  -webkit-appearance: textfield;
+          appearance: textfield;
 }
 
 .range-input::-webkit-outer-spin-button,
 .range-input::-webkit-inner-spin-button {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   margin: 0;
 }
 
@@ -1424,7 +1427,8 @@ body {
   border: 2px solid #e5e5e5;
   border-radius: 4px;
   padding: 14px 20px;
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   background-image: url("../images/arrow.svg");
   background-repeat: no-repeat;
 }
