@@ -33,7 +33,7 @@ body {
   background-color: #fff;
   width: 1200px;
   margin: 0 auto;
-  box-shadow: 0 0 15px rgba (0, 0, 0, 0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .main-container {
@@ -87,7 +87,7 @@ body {
 
 .btn-secondary:active {
   background-color: #82b3d3;
-  color: rgba (255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .btn-secondary:disabled {
@@ -133,7 +133,7 @@ body {
 .btn-primary:active,
 .btn-primary-detail:active {
   background-color: #756157;
-  color: rgba (255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .btn-primary:disabled,
@@ -165,7 +165,7 @@ body {
 
 .btn-chosen:active {
   background-color: #7db54f;
-  color: rgba (255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .btn-chosen:active:disabled {
@@ -210,7 +210,7 @@ body {
 }
 
 .btn-reset:active {
-  color: rgba (255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .btn-reset:disabled {
@@ -333,7 +333,7 @@ body {
 }
 
 .main-nav-link:active {
-  color: rgba (117, 97, 87, 0.3);
+  color: rgba(117, 97, 87, 0.3);
 }
 
 .main-nav-link-active {
@@ -389,7 +389,7 @@ body {
 
 .advantage-card-title-big::before {
   position: absolute;
-  background-color: rgba (255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   content: "";
   width: 60px;
   height: 2px;
@@ -400,7 +400,7 @@ body {
 
 .advantage-card-title-line::before {
   position: absolute;
-  background-color: rgba (0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   content: "";
   width: 60px;
   height: 2px;
@@ -454,6 +454,7 @@ body {
   justify-content: space-between;
   color: #fff;
   width: 100%;
+  background-color: #82b3d3;
 }
 
 .advantages-wrapper {
@@ -466,7 +467,7 @@ body {
   flex-direction: column;
   width: 400px;
   min-height: 384px;
-  background: rgba (131, 179, 211, 0.12);
+  background: rgba(131, 179, 211, 0.12);
   text-align: center;
 }
 
@@ -496,7 +497,7 @@ body {
 }
 
 .advantage-card-light-blue {
-  background: rgba (131, 179, 211, 0.2);
+  background: rgba(131, 179, 211, 0.2);
 }
 
 .advantage-card-white {
@@ -645,7 +646,7 @@ body {
   display: flex;
   width: 100%;
   height: 100%;
-  background-color: rgba (242, 242, 242, 0.8);
+  background-color: rgba(242, 242, 242, 0.8);
 }
 
 .modal-container-close {
@@ -654,7 +655,7 @@ body {
 
 .modal-search {
   width: 577px;
-  box-shadow: 0 25px 50px rgba (0, 0, 0, 0.15);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
 }
 
@@ -787,7 +788,7 @@ body {
   position: absolute;
   background-image: url("../images/calendar.svg");
   background-repeat: no-repeat;
-  background-color: rgba (255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   width: 16px;
   height: 15px;
   right: 92px;
@@ -905,7 +906,7 @@ body {
 }
 
 .search-form-button:active {
-  color: rgba (255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .tooltip {
@@ -940,7 +941,7 @@ body {
   line-height: 20px;
   font-weight: normal;
   padding: 15px 18px 18px 22px;
-  box-shadow: 0 15px 30px rgba (0, 0, 0, 0.3);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   width: 216px;
   left: 6%;
@@ -1005,7 +1006,7 @@ body {
 }
 
 .social-link:active {
-  color: rgba (104, 162, 202, 0.3);
+  color: rgba(104, 162, 202, 0.3);
 }
 
 .phone {
@@ -1028,7 +1029,7 @@ body {
 }
 
 .phone:active {
-  color: rgba (117, 97, 87, 0.3);
+  color: rgba(117, 97, 87, 0.3);
 }
 
 .inner-header {
@@ -1052,7 +1053,7 @@ body {
   height: 4px;
   width: 287px;
   margin-top: 48px;
-  background-color: rgba (255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .range-bar {
@@ -1194,7 +1195,7 @@ body {
   border: none;
   padding: 0;
   margin: 0;
-  padding-right: 70px;
+  padding-right: 63px;
 }
 
 .catalog-filter-title {
@@ -1220,7 +1221,7 @@ body {
   padding: 0;
   margin: 0;
   padding-right: 58px;
-  padding-left: 70px;
+  padding-left: 83px;
 }
 
 .breadcrumbs {
@@ -1264,7 +1265,7 @@ body {
 }
 
 .breadcrumbs-link-home:active {
-  color: rgba (255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .breadcrumbs-item:not(:last-child)::before {
@@ -1278,7 +1279,7 @@ body {
 }
 
 .breadcrumbs:hover {
-  color: rgba (255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .breadcrumbs:focus {
@@ -1287,7 +1288,7 @@ body {
 }
 
 .breadcrumbs:active {
-  color: rgba (255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .control {
@@ -1308,7 +1309,7 @@ body {
 }
 
 .control:hover .control-service {
-  background-color: rgba (255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .control-input:focus-visible + .control-service {
@@ -1316,11 +1317,11 @@ body {
 }
 
 .control-input:active + .control-service {
-  background-color: rgba (255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .control-input:disabled + .control-service {
-  background-color: rgba (255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .control-input[type="checkbox"]:checked + .control-service::before {
@@ -1350,7 +1351,7 @@ body {
 }
 
 .control:hover .control-label {
-  color: rgba (255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .control:focus .control-label {
@@ -1358,7 +1359,7 @@ body {
 }
 
 .control:active .control-label {
-  color: rgba (255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .search-form {
@@ -1453,15 +1454,15 @@ body {
 }
 
 .select-control:disabled {
-  border: 2px solid rgba (0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
   border-radius: 4px;
-  color: rgba (0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .select-control:disabled:hover {
-  border: 2px solid rgba (0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
   border-radius: 4px;
-  color: rgba (0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
   outline: none;
   cursor: default;
 }
@@ -1615,7 +1616,7 @@ body {
 
 .pagination-link:not(.pagination-current):active {
   background-color: #82b3d3;
-  color: rgba (255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .pagination-link:not(.pagination-current):hover,
@@ -1656,5 +1657,5 @@ body {
 }
 
 .html-academy:active {
-  color: rgba (117, 97, 87, 0.3);
+  color: rgba(117, 97, 87, 0.3);
 }
